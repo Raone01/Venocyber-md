@@ -16,7 +16,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Kolkata,India";
 global.github = process.env.GITHUB || "https://github.com/Raone01/Venocyber-md";
 global.gurl = process.env.GURL || "https://chat.whatsapp.com/HHPJJepzwHG4QgL0TU5UgI";
 global.website = process.env.GURL || "https://chat.whatsapp.com/HHPJJepzwHG4QgL0TU5UgI";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://ibb.co/jynndLy";
 global.devs = "919634945456";
 global.sudo = process.env.SUDO || "919634945456";
 global.owner = process.env.OWNER_NUMBER || "919634945456";
@@ -53,7 +53,7 @@ module.exports = {
   packname: process.env.PACK_NAME || "▪️▫️▪️ѕιℓєηт  χαямσηу🦚",
   botname: process.env.BOT_NAME || "▪️▫️▪️ѕιℓєηт  χαямσηу🦚",
   ownername: process.env.OWNER_NAME || "▪️▫️▪️ѕιℓєηт  χαямσηу🦚",
-  errorChat: process.env.ERROR_CHAT || "",
+  errorChat: process.env.ERROR_CHAT || "true",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-proj-MLNkacQOWsMSwtBZZf0XT3BlbkFJqfgJYOOkiikW5Y4ynpM5",
